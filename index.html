@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cuộn Màng PVC | Công Ty Nhựa</title>
+  <title>Công Ty Nhựa | Sản Phẩm PVC</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,26 +20,75 @@
     </div>
   </header>
 
-  <main class="container">
-    <h2>Cuộn Màng PVC</h2>
-    <div class="product-details">
-      <div class="image">
-        <img src="images/pvc-roll.jpg" alt="Cuộn màng PVC">
-      </div>
-      <div class="info">
-        <p><strong>Chất liệu:</strong> Nhựa PVC nguyên sinh</p>
-        <p><strong>Độ dày:</strong> 0.08mm - 0.5mm</p>
-        <p><strong>Màu sắc:</strong> Trong suốt, xanh, vàng...</p>
-        <p><strong>Ứng dụng:</strong> Bao bì, cửa nhựa mềm, rèm kho lạnh...</p>
-        <button>Liên hệ để báo giá</button>
-      </div>
-    </div>
-  </main>
+  <div class="main-container">
+    <!-- Side Navigation -->
+    <aside class="side-nav">
+      <button class="nav-btn active" data-section="pvc-roll">Cuộn Màng PVC</button>
+      <button class="nav-btn" data-section="pvc-sheet">Tấm PVC</button>
+      <button class="nav-btn" data-section="pvc-profile">Thanh Nhựa PVC</button>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content-area">
+      <!-- PVC Roll Section -->
+      <section id="pvc-roll" class="product-section active">
+        <h2>Cuộn Màng PVC</h2>
+        <div class="product-details">
+          <div class="image">
+            <img src="images/pvc-roll.jpg" alt="Cuộn màng PVC">
+          </div>
+          <div class="info">
+            <p><strong>Chất liệu:</strong> Nhựa PVC nguyên sinh</p>
+            <p><strong>Độ dày:</strong> 0.08mm - 0.5mm</p>
+            <p><strong>Màu sắc:</strong> Trong suốt, xanh, vàng...</p>
+            <p><strong>Ứng dụng:</strong> Bao bì, cửa nhựa mềm, rèm kho lạnh...</p>
+            <button>Liên hệ để báo giá</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- PVC Sheet Section -->
+      <section id="pvc-sheet" class="product-section">
+        <h2>Tấm PVC</h2>
+        <div class="product-details">
+          <div class="image">
+            <img src="images/pvc-sheet.jpg" alt="Tấm PVC">
+          </div>
+          <div class="info">
+            <p><strong>Chất liệu:</strong> PVC cứng</p>
+            <p><strong>Độ dày:</strong> 1mm - 20mm</p>
+            <p><strong>Kích thước:</strong> 1220mm x 2440mm</p>
+            <p><strong>Ứng dụng:</strong> Vách ngăn, bàn ghế, tủ kệ...</p>
+            <button>Liên hệ để báo giá</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- PVC Profile Section -->
+      <section id="pvc-profile" class="product-section">
+        <h2>Thanh Nhựa PVC</h2>
+        <div class="product-details">
+          <div class="image">
+            <img src="images/pvc-profile.jpg" alt="Thanh nhựa PVC">
+          </div>
+          <div class="info">
+            <p><strong>Chất liệu:</strong> PVC đặc</p>
+            <p><strong>Kích thước:</strong> Đa dạng theo yêu cầu</p>
+            <p><strong>Màu sắc:</strong> Trắng, đen, xám...</p>
+            <p><strong>Ứng dụng:</strong> Khung cửa, phụ kiện nội thất...</p>
+            <button>Liên hệ để báo giá</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <div class="container">
       <p>&copy; 2025 Công Ty Nhựa. All rights reserved.</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
